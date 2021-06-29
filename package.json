@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/GregoireChevalierACS/APIngPon/issues"
   },
-  "homepage": "https://github.com/GregoireChevalierACS/APIngPon#readme"
+  "homepage": "https://github.com/GregoireChevalierACS/APIngPon#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
