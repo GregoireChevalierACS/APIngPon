@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/matches-playeds",
+      "handler": "matches-played.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/matches-playeds/count",
+      "handler": "matches-played.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/matches-playeds/:id",
+      "handler": "matches-played.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/matches-playeds",
+      "handler": "matches-played.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/matches-playeds/:id",
+      "handler": "matches-played.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/matches-playeds/:id",
+      "handler": "matches-played.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

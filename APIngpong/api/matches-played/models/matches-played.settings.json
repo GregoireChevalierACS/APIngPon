@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "matches_playeds",
+  "info": {
+    "name": "MatchesPlayed",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "matchDate": {
+      "type": "date",
+      "required": true
+    },
+    "winner": {
+      "type": "richtext",
+      "required": true
+    },
+    "player": {
+      "model": "players",
+      "via": "matches_playeds"
+    }
+  }
+}

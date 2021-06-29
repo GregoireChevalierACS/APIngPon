@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "players",
+  "info": {
+    "name": "Players"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FirstName": {
+      "type": "string",
+      "regex": "[A-Za-zÀ-ÖØ-öø-ÿ]",
+      "maxLength": 30,
+      "minLength": 2,
+      "required": true
+    },
+    "LastName": {
+      "type": "string",
+      "required": true,
+      "maxLength": 30,
+      "minLength": 2,
+      "regex": "[A-Za-zÀ-ÖØ-öø-ÿ]"
+    },
+    "DateOfBirth": {
+      "type": "date",
+      "required": true
+    },
+    "GamesPlayed": {
+      "type": "integer",
+      "default": 0
+    },
+    "matches_playeds": {
+      "via": "player",
+      "collection": "matches-played"
+    }
+  }
+}
