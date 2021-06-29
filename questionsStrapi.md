@@ -1,0 +1,1 @@
+1) à l'init du projet strapi, le fichier users-permissions\config\jwt.js est créé. Des explications sur ce que c'est ?

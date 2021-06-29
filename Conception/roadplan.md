@@ -10,8 +10,9 @@
     - table joueurs
     - table matchs
 - Créer des profils utilisateurs
-    - profil admin qui peut ajouter des csv
+    - profil admin qui peut ajouter des résultats
     - profil user qui peut consulter
+- Créer un log d'ajout des résultats
 - Créer un serveur node express qui toutes les xmins
     - check un dossier de reception
     - ouvre et lit les csv
