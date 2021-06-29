@@ -1,0 +1,19 @@
+{
+  "name": "apingpon",
+  "version": "1.0.0",
+  "description": "A simple app to store and update table tennis results",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregoireChevalierACS/APIngPon.git"
+  },
+  "author": "Grégoire Chevalier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GregoireChevalierACS/APIngPon/issues"
+  },
+  "homepage": "https://github.com/GregoireChevalierACS/APIngPon#readme"
+}
