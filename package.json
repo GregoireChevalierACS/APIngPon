@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/GregoireChevalierACS/APIngPon#readme",
   "dependencies": {
+    "@nuxtjs/strapi": "^0.3.1",
     "express": "^4.17.1"
   }
 }
