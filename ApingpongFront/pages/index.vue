@@ -1,12 +1,13 @@
 <template>
   <!-- <Tutorial/> -->
   <div class="container">
+    <div>Salut</div>
     <div v-if="error">
       {{ error }}
     </div>
     <ul v-else>
-      <li v-for="player in players" :key="player.id">
-        {{ player.name }}
+      <li v-for="player in Players" :key="player.id">
+        {{ player.FirstName }} {{ player.LastName }} , {{ player.DateOfBirth }}
       </li>
     </ul>
   </div>
@@ -16,13 +17,13 @@
 export default {
   data () {
     return {
-      players: [],
+      Players: [],
       error: null
     }
   },
   async mounted () {
     try {
-      this.players = await this.$strapi.$players.find()
+      this.Players = await this.$strapi.$Players.find()
     } catch (error) {
       this.error = error
     }

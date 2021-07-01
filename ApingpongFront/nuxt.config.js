@@ -40,7 +40,7 @@ export default {
   url: 'http://localhost:1337'
 },
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
+  // Build Configuration: https://go.nuxtjs.dev/config-build/
   build: {
   }
 }

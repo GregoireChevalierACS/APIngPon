@@ -1,1 +1,2 @@
 1) à l'init du projet strapi, le fichier users-permissions\config\jwt.js est créé. Des explications sur ce que c'est ?
+2) concernant la sécurité : où est stocké le code qui contient les infos des permissions ?
