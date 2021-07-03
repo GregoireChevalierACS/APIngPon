@@ -1,5 +1,8 @@
 <template>
   <div>
+    <div>
+      
+    </div>
       un logo (svn peut-être ?)
       un lien vers les résultats
       un form d'authentification
